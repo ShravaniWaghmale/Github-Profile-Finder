@@ -36,3 +36,68 @@
     transform: rotate(360deg);
   }
 }
+
+/*index css*/
+.github-profile-container {
+  margin: 0 auto;
+  padding: 20px;
+  width: 90%;
+  max-width: 1000px;
+  border-radius: 8px;
+}
+
+.inptut-wrapper {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.inptut-wrapper input {
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+}
+
+.inptut-wrapper button {
+  padding: 5px 12px;
+  border: none;
+  border-radius: 8px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+/*use css*/
+.user {
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid;
+}
+
+.avatar {
+  height: 150px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+}
+
+.name-cotainer {
+  display: flex;
+  border: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.name-cotainer p {
+  margin: 0px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.profile-info div {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
